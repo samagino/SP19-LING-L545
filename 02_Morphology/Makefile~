@@ -1,0 +1,18 @@
+LANG=ru
+
+all:$(LANG).gen.hfst
+
+png:$(LANG).gen.hfst
+	hfst-fst2txt $^ | python3 att2dot.py | dot -Tpng -o ru.gen.png
+
+$(LANG).gen.hfst:$(LANG).lexc.hfst $(LANG).twol.hfst
+	hfst-compose-intersect -1 $(LANG).lexc.hfst -2 $(LANG).twol.hfst -o $@
+
+$(LANG).lexc.hfst:$(LANG).lexc
+	hfst-lexc $^ -o $@
+
+$(LANG).twol.hfst:$(LANG).twol
+	hfst-twolc $^ -o $@
+
+clean:
+	- rm -f *.hfst

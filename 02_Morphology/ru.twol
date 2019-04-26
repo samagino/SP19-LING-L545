@@ -1,0 +1,35 @@
+Alphabet
+  а б в г д е ё ж з и й к л м н о п р с т у ф х ц ч ш щ ъ ы ь э ю я
+  А Б В Г Д Е Ё Ж З И Й К Л М Н О П Р С Т Г Ф Х Ц Ч Ш Щ Ъ Ы Ь Э Ю Я
+ 
+ %{Nom%}:0 %{Nom%}:а %{Nom%}:о %{Nom%}:ы %{Nom%}:и
+ %{Acc%}:0 %{Acc%}:у %{Acc%}:ю
+;
+
+Sets
+
+HardVow = а о э у ы ;
+SoftVow = я ё е ю и ;
+
+! rename this
+WeirdCns = г к х ж ч ш щ ;
+
+AllGender = %<ma%> %<fe%> %<ne%>
+
+Rules
+
+"Make nomitive plural stuff work right (archiphoneme {Pl})"
+%{Pl%}:и <=> WeirdCns: AllGender: [%<nom%> | %<acc%>] _ ;
+
+"Nominative singular masculine"
+%{Nom%}:0 <=> %<ma%> %<nom%> _ ;
+"Nominative singular femenine"
+%{Nom%}:а <=> %<fe%> %<nom%> _ ;
+"Nomintative singular neuter"
+%{Nom%}:о <=> %<ne%> %<nom%> _ ;
+
+"Nominative plural"
+%{Nom%}:и <=> WeirdCns: [ <%ma%> | %<fe%> ] %<pl%> <%nom%> _ ;
+
+"Remove morpheme boundary"
+%>:0 <=> _ ;

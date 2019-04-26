@@ -1,0 +1,32 @@
+Multichar_Symbols
+
+%<n%>                ! Noun
+%<pl%>               ! Plural
+
+%{P%}		     ! Plural Archiphoneme placeholder
+
+%>                   ! Morpheme boundary
+
+LEXICON Root
+
+Nouns ; 
+
+!LEXICON CASES
+
+!%<prep%>:%>n%{A%} # ;
+
+LEXICON PLURAL
+
+		# ; 
+%<pl%>:%>%{P%}	# ;
+
+LEXICON N 
+
+%<n%>: PLURAL ;
+
+LEXICON Nouns
+
+город:город N ;			! "city"
+фильм:фильм N ;		  	! "movie"
+гриб:гриб N ; 		  	! "mushroom"
+холодильник:холодильник N ; 	! "refrigerator"

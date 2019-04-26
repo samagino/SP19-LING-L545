@@ -1,0 +1,64 @@
+Multichar_Symbols
+
+! Tags
+
+! lexical categories
+
+%<n%>                ! Noun
+
+
+! genders (plural is pretty much a gender in Russian I think)
+
+%<pl%>               ! Plural
+%<ma%>		     ! masculine
+%<fe%>		     ! feminine
+%<ne%>		     ! neuter
+
+! cases
+
+%<nom%>		     ! nominative
+%<acc%>		     ! accusitive
+
+
+! Archiphonemes
+
+! %{Ma%}		     ! Masculine Archiphoneme variable
+! %{Fe%}		     ! Female Archiphoneme variable
+! %{Ne%}		     ! Neuter Archiphoneme variable
+! need this one for nouns
+%{Pl%}		     ! Plural Archiphoneme placeholder
+
+%{Nom%}		     ! Nominative Archiphoneme variable
+%{Acc%}		     ! Accusitive Archiphoneme variable
+
+
+%>                   ! Morpheme boundary
+
+LEXICON Root
+
+Nouns ; 
+
+LEXICON CASE
+
+! Nominative
+%<nom%>:%{Nom%} # ;
+
+! Accusitive
+%<acc%>:%{Acc%} # ;
+
+
+LEXICON PLURAL
+
+		# ; 
+%<pl%>:%{Pl%}	# ;
+
+LEXICON N 
+
+%<n%>: PLURAL CASE ;
+
+LEXICON Nouns
+
+город:город %<ma%> N ;			! "city"
+фильм:фильм %<ma%> N ;		  	! "movie"
+гриб:гриб %<ma%> N ; 		  	! "mushroom"
+холодильник:холодильник %<ma%> N ; 	! "refrigerator"
