@@ -1,0 +1,148 @@
+27c27
+< 25	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	22	obj	_	_
+---
+> 25	augmentation	augmentation	NOUN	_	Gender=Fem|Number=Sing	30	obl:mod	_	_
+32c32
+< 30	exigeront	exiger	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	22	advcl	_	_
+---
+> 30	exigeront	exiger	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	38	advcl	_	_
+38c38
+< 36	eau	eau	NOUN	_	Gender=Fem|Number=Sing	32	nmod	_	_
+---
+> 36	eau	eau	NOUN	_	Gender=Fem|Number=Sing	30	obl:mod	_	_
+42c42
+< 40	peut-être	peut-être	ADV	_	_	38	advmod	_	_
+---
+> 40	peut-être	peut-être	ADV	_	_	41	advmod	_	_
+44c44
+< 42	,	,	PUNCT	_	_	38	punct	_	_
+---
+> 42	,	,	PUNCT	_	_	44	punct	_	_
+46c46
+< 44	air	air	NOUN	_	Gender=Masc|Number=Sing	36	conj	_	_
+---
+> 44	air	air	NOUN	_	Gender=Masc|Number=Sing	22	conj	_	_
+50c50
+< 48	moyens	moyen	NOUN	_	Gender=Masc|Number=Plur	36	conj	_	_
+---
+> 48	moyens	moyen	NOUN	_	Gender=Masc|Number=Plur	44	conj	_	_
+55c55
+< 53	modernisation	modernisation	NOUN	_	Gender=Fem|Number=Sing	36	conj	_	_
+---
+> 53	modernisation	modernisation	NOUN	_	Gender=Fem|Number=Sing	44	conj	_	_
+74c74
+< 12	%	%	NOUN	_	Gender=Masc	9	obl:arg	_	_
+---
+> 12	%	%	NOUN	_	Gender=Masc	9	obj	_	_
+81c81
+< 18	imputables	imputable	ADJ	_	Number=Plur	15	amod	_	_
+---
+> 18	imputables	imputable	ADJ	_	Number=Plur	17	amod	_	_
+95,96c95,96
+< 7	quant	quant	ADV	_	_	10	case	_	MWE=quant_à|MWEPOS=ADP
+< 8	à	à	ADP	_	_	7	fixed	_	_
+---
+> 7	quant	quant	ADV	_	_	6	advmod	_	MWE=quant_à|MWEPOS=ADP
+> 8	à	à	ADP	_	_	10	case	_	_
+98c98
+< 10	sagesse	sagesse	NOUN	_	Gender=Fem|Number=Sing	3	obl:mod	_	_
+---
+> 10	sagesse	sagesse	NOUN	_	Gender=Fem|Number=Sing	3	obl:arg	_	_
+113c113
+< 24	Autriche	Autriche	PROPN	_	Gender=Fem|Number=Sing	19	nmod	_	_
+---
+> 24	Autriche	Autriche	PROPN	_	Gender=Fem|Number=Sing	22	nmod	_	_
+117c117
+< 28	dont	dont	PRON	_	PronType=Rel	30	iobj	_	_
+---
+> 28	dont	dont	PRON	_	PronType=Rel	29	nmod	_	_
+141c141
+< 13	en	en	ADP	_	_	12	obl:arg	_	MWE=en_vigueur|MWEPOS=ADV
+---
+> 13	en	en	ADP	_	_	12	advmod	_	MWE=en_vigueur|MWEPOS=ADV
+146c146
+< 17	moyen	moyen	NOUN	_	Gender=Masc|Number=Sing	12	obl:mod	_	_
+---
+> 17	moyen	moyen	NOUN	_	Gender=Masc|Number=Sing	12	fixed	_	_
+150,153c150,153
+< 20	Digital	Digital	X	_	_	17	nmod	_	_
+< 21	Millenium	Millenium	X	_	_	20	flat:foreign	_	_
+< 22	Corporate	Corporate	X	_	_	20	flat:foreign	_	_
+< 23	Act	Act	X	_	_	20	flat:foreign	_	_
+---
+> 20	Digital	Digital	X	_	_	12	obl:arg	_	_
+> 21	Millenium	Millenium	X	_	_	12	obl:mod	_	_
+> 22	Corporate	Corporate	X	_	_	21	flat:foreign	_	_
+> 23	Act	Act	X	_	_	21	flat:foreign	_	_
+184c184
+< 13	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+---
+> 13	Europe	Europe	PROPN	_	Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+186c186
+< 15	bien	bien	ADV	_	_	16	advmod	_	_
+---
+> 15	bien	bien	ADV	_	_	5	advmod	_	_
+188,190c188,190
+< 16	à	à	ADP	_	_	5	advmod	_	MWE=au_contraire|MWEPOS=ADV
+< 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	fixed	_	_
+< 18	contraire	contraire	NOUN	_	Gender=Masc|Number=Sing	16	fixed	_	SpaceAfter=No
+---
+> 16	à	à	ADP	_	_	15	fixed	_	MWE=au_contraire|MWEPOS=ADV
+> 17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
+> 18	contraire	contraire	NOUN	_	Gender=Masc|Number=Sing	5	obj	_	SpaceAfter=No
+210c210
+< 15	fait	fait	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	_
+---
+> 15	fait	fait	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	_
+226c226
+< 30	avis	avis	NOUN	_	Gender=Masc|Number=Sing	19	obl:mod	_	SpaceAfter=No
+---
+> 30	avis	avis	NOUN	_	Gender=Masc|Number=Sing	10	obl:arg	_	SpaceAfter=No
+246,248c246,248
+< 16	de	de	ADP	_	_	18	det	_	MWE=du|MWEPOS=DET
+< 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	fixed	_	_
+< 18	culture	culture	NOUN	_	Gender=Fem|Number=Sing	15	obj	_	_
+---
+> 16	de	de	ADP	_	_	18	case	_	MWE=du|MWEPOS=DET
+> 17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
+> 18	culture	culture	NOUN	_	Gender=Fem|Number=Sing	15	obl:arg	_	_
+251c251
+< 21	modalités	modalité	NOUN	_	Gender=Fem|Number=Plur	15	obl:mod	_	_
+---
+> 21	modalités	modalité	NOUN	_	Gender=Fem|Number=Plur	12	obl:mod	_	_
+272c272
+< 1	(	(	PUNCT	_	_	6	punct	_	SpaceAfter=No
+---
+> 1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+283c283
+< 11	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	6	obl:arg	_	_
+---
+> 11	rapport	rapport	NOUN	_	Gender=Masc|Number=Sing	6	obl:mod	_	_
+289c289
+< 17	initiative	initiative	NOUN	_	Gender=Fem|Number=Sing	11	nmod	_	_
+---
+> 17	initiative	initiative	NOUN	_	Gender=Fem|Number=Sing	6	obl:mod	_	_
+312c312
+< 40	Horizon	Horizon	PROPN	_	_	38	conj	_	SpaceAfter=No
+---
+> 40	Horizon	Horizon	PROPN	_	_	6	conj	_	SpaceAfter=No
+314c314
+< 42	Youthstart	Youthstart	PROPN	_	_	38	conj	_	_
+---
+> 42	Youthstart	Youthstart	PROPN	_	_	6	conj	_	_
+316c316
+< 44	Integra	Integra	PROPN	_	_	38	conj	_	_
+---
+> 44	Integra	Integra	PROPN	_	_	6	conj	_	_
+320c320
+< 47	initiatives	initiative	NOUN	_	Gender=Fem|Number=Plur	37	nmod	_	_
+---
+> 47	initiatives	initiative	NOUN	_	Gender=Fem|Number=Plur	6	nmod	_	_
+323c323
+< 50	Employment	Employment	PROPN	_	_	48	conj	_	SpaceAfter=No
+---
+> 50	Employment	Employment	PROPN	_	_	6	conj	_	SpaceAfter=No
+351c351
+< 22	initiatives	initiative	NOUN	_	Gender=Fem|Number=Plur	19	obl:arg	_	_
+---
+> 22	initiatives	initiative	NOUN	_	Gender=Fem|Number=Plur	19	obl:mod	_	_
